@@ -91,7 +91,7 @@ def call_openai_compatible_api(messages, url="http://127.0.0.1:5000/v1/chat/comp
 
 if __name__ == "__main__":
 
-    keyfile = "/home/andrew/tabbyAPI/api_tokens.yml"
+    keyfile = YOUR_API_KEYS_YML_KEYFILE_LOCATION_HERE
     API_key = None
     if (keyfile):
         API_key = get_yaml_key_value(keyfile,"admin_key")

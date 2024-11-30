@@ -3,7 +3,7 @@ Basic code and tests of tabbyAPI, including json structured generation
 
 The code assumes you have a tabbyAPI server running on 127.0.0.1:5000 with a chat model already loaded
 
-User must provide in the python code the location of an api_keys.yml file with the keys for the tabbyAPI server
+User must provide in the python code the location of an api_tokens.yml file with the keys for the tabbyAPI server
 
 call_tabby_basic.py : A very basic no-frills call to the API with a simple prompt
 

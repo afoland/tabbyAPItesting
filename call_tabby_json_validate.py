@@ -148,7 +148,7 @@ if __name__ == "__main__":
     json_schema_str = read_text_file("capital_json_schema.txt")
 
     API_key = None
-    keyfile = "/home/andrew/tabbyAPI/api_tokens.yml"
+    keyfile = YOUR_API_KEYS_YML_KEYFILE_LOCATION_HERE
     API_key = get_yaml_key_value(keyfile,"admin_key") # Either will work
     API_key = get_yaml_key_value(keyfile,"api_key")
 
